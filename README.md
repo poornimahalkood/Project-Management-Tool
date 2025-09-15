@@ -27,20 +27,15 @@
 ## Installation
 
 1. Clone the repository:
-
 git clone <repository-url>
 
 2. Navigate to the project folder:
-
 cd project-management-tool
 
 3. Install dependencies:
-
 npm install
 
 4. Start the development server:
-
 npm run dev
 
-5. Open http://localhost:5173
-   in your browser.
+5. Open http://localhost:5173 in your browser.
