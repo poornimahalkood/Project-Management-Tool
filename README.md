@@ -1,15 +1,32 @@
-# React + Vite
+# Project Management Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Project Management Tool** is a lightweight, interactive task management application built with **React.js** and **Vite**. It helps teams and individuals organize tasks using a **Kanban-style board** with drag-and-drop functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Kanban Board:** Organize tasks across multiple columns (To Do, In Progress, Done).  
+- **Drag & Drop:** Easily move tasks between columns.  
+- **Add Tasks:** Inline input fields for **task title** and **description**.  
+- **Delete Tasks:** Remove tasks effortlessly.  
+- **Dynamic Task Count:** Shows the number of tasks in each column.  
+- **Responsive UI:** Built with **Tailwind CSS** for a clean, modern interface.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
+## Tech Stack
 
-This is a test commit
+- **Frontend:** React.js, Vite  
+- **Styling:** Tailwind CSS  
+- **Drag & Drop:** [@hello-pangea/dnd](https://github.com/hello-pangea/dnd)  
+- **State Management:** React Hooks (`useState`)  
+
+---
+
+## Installation
+
+1. Clone the repository:  
+```bash
+git clone <repository-url>
+
